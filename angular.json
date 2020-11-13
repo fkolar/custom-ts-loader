@@ -13,6 +13,7 @@
         "build": {
           "builder": "ngx-build-plus:browser",
           "options": {
+            "extraWebpackConfig": "webpack.partial.js",
             "outputPath": "dist/custom-ts-loader",
             "index": "src/index.html",
             "main": "src/main.ts",
