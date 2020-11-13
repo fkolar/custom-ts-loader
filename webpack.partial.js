@@ -7,10 +7,8 @@ module.exports = {
         test: /\.ts$/,
         use: [
           {
-            loader: path.resolve('loader/oss-loader.js'),
-            options: {
-              prefix: 'dddd'
-            }
+            loader: path.resolve('loader/oss-loader.js')
+
           }
         ]
       }
