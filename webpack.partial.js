@@ -1,18 +1,17 @@
-const path = require('path');
+  const path = require('path');
 
-module.exports = {
-  module: {
-    rules: [
-      {
-        test: /\.ts$/,
-        use: [
-          {
-            loader: path.resolve('loader/oss-loader.js')
-
-          }
-        ]
-      }
-    ]
-  }
-};
+  module.exports = {
+    module: {
+      rules: [
+        {
+          test: /\.ts$/,
+          use: [
+            {
+              loader: path.resolve('loader/oss-loader.js')
+            }
+          ]
+        }
+      ]
+    }
+  };
 
